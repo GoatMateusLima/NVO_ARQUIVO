@@ -1,7 +1,95 @@
 body{
-    background-color: rgb(27, 10, 3);
-    color: white;
+    background: linear-gradient(to right, rgb(3, 3, 82), rgb(40, 5, 54), rgb(18, 7, 85), rgb(13, 0, 128));
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
 }
-hr{
-    border: 3px solid rgb( 000, 000, 000);
+.meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    
+
+   
 }
+
+.container {
+
+    width: 20%;
+    max-width: 900px;
+    background: linear-gradient(to right, rgb(32, 32, 102), rgb(40, 5, 54), rgb(18, 7, 85), rgb(13, 0, 128));
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+   
+
+    
+   
+    
+}
+
+.imagem-container img{
+    width: 10%;
+    height: auto; 
+}
+
+.imagem-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+
+}
+
+.hrmetade{
+    width: 90%;
+    border: 10px solid #190431;
+}
+
+.introducao{
+    width: 30%;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(32, 5, 77);
+    display: flex;
+    margin: 50px ;
+   
+
+}
+.topo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(32, 5, 77);
+
+}
+.imgInt{
+    width: 50px;
+    height: 60px;}
+
+.text1{
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.div2{
+    width: 30%;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(32, 5, 77);
+    display: flex;
+    margin: 50px ;
+}
+
+
